@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+    * {margin: 0; padding: 0; font-family: 'Nanum Gothic', sans-serif;}
+    ul, ol, li {list-style: none;}
+
+
+    body{background-color: #fcf9ee;}
+
+    .footer {width:100%; height: 200px; background-color: #2a2a2a;}
+      .footbox{width:1200px; height:200px; margin: 0 auto; font-family: "나눔고딕"; color: white; }
+        .service{width: 120px; height: 130px; float:left; margin: 30px 50px 0px 150px;}
+        .service h4{font-size: 15px;}
+        .service ul{font-size: 13px; line-height: 25px;}
+
+        .company{width: 100px; height: 130px;  float:left; margin: 30px 50px 0px 100px;}
+        .company h4{font-size: 15px;}
+        .company ul{font-size: 13px; line-height: 25px;}
+
+        .mypage{width: 100px; height: 130px; float:left; margin: 30px 50px 0px 100px;}
+        .mypage h4{font-size: 15px;}
+        .mypage ul{font-size: 13px; line-height: 25px;}
+
+        .network{width: 120px; height: 130px; float:left; margin: 30px 50px 0px 100px;}
+        .network h4{font-size: 15px;}
+        .network ul{font-size: 13px; line-height: 25px;}
+        .network a{text-decoration: none; color: white;}
+        .network img{width: 15px; height: 15px;}
+
+
+    .bottom {width:100%; height: 55px; background-color: #191919;}
+     .bottombox{width: 1200px; height: 55px; margin: 0 auto;}
+      .bottombox a{text-decoration:none; color: white;}
+      .bottombox span{float: left; text-align: left; margin: 20px 0 0 50px; color: white; font-size: 11px; font-family: "Arial";}
+
+    .privacy{width: 230px; height: 20px; font-size: 8px; font-family: "나눔고딕"; color: white; float: right;margin: 20px -50px 0 0;}
+     .bottom_right a{text-decoration: none;}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+  
+
+  header{width: 1200px; height: 90px; margin:0 auto; background-color: #2a2a2a;}
+
+  @font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+  .nanummyeongjo * {
+  font-family: 'Nanum Myeongjo', serif;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+  body{background-color: #2a2a2a;}
+
+  #logo {width: 155px; height: 35px; float:center; margin: 0 0 0 520px;}
+  #logo img {width: 100%; height: 100%; margin: 20px}
+
+  select {position:relative; margin: -4px 100px 30px 10px; float: right;}
+  #nav{position: relative; float: right; margin: -5px 10px 0 10px;}
+  #nav img{width:20px; height:20px; padding: 0 5px;}
+
+
+  #menu{width: 100%; height: 65px; background-color: #fcf9ee; box-shadow: 0 2px 8px #666666;}
+    .menu_box{width:1200px; height: 65px; background-color: #fcf9ee; margin: 0 auto;}
+    .menu_box ul .home{margin: 0 0 0 30px;}
+    .menu_box ul li {font-size: 15px; float: left; margin: 20px 0 0 10px;}
+    .menu_box ul li a{text-decoration: none; color:#2a2a2a;}
+    .menu_box ul li a:hover{color: #66c394; font-weight: bold;}
+
+
+  #main{width: 100%; height: 870px; background-color: #fcf9ee;}
+    .main_box_left{width: 50%; height: 100%; position:relative; float:left;}
+    .perfume{float: right; width: 210px; height: 420px; position: absolute; top: 90px; right: 195px;}
+    .perfume_small{float: right; width: 95px; height: 95px; border: 2px solid rgb(165, 165, 165);
+    border-radius: 3px; top: 550px; right: 250px; position: absolute;}
+    .score{font-size: 12px; position:absolute; bottom: 148px; right: 290px;}
+    small{font-size: 10px;}
+    .icon_color{float: left; bottom: 125px; right: 140px; position: absolute; padding: 10px;}
+
+
+    .main_box_right{width:50%; height: 100%; float: right; position:relative;}
+    .english{font-size: 14px; margin: 70px 0 0 20px; font-family: 'Festive', bold; color:#66c394;}
+    .index{width: 20em; font-size: 30px; line-height:40px; font-family: 'Nanum Myeongjo', serif; font-weight: bold; margin: 10px 0 0 15px; letter-spacing: -3px;}
+    .price{font-size: 25px; font-family: 'Nanum Myeongjo', serif; font-weight: bold; margin: 15px 0 0 20px;}
+    .index_under>span{font-size: 19px; line-height: 35px; font-family: 'MaruBuri-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;}
+    .index_under{font-size: 15px; line-height: 28px; margin: 0 0 0 15px; letter-spacing: -1px; color: #2a2a2a;}
+
+
+    .nemo{display: inline-block; width: 425px; height: 60px; background-color: #c4c4c4; border-radius: 10px; margin: 30px 0 0 15px;}
+    .sold{padding: 20px; color:white; font-weight: bold; font-size:13px;}
+    .sum{width: 425px; height: 60px; border-bottom: 2px solid #66c394; margin: 10px 0 0 15px;}
+    .sum_left{font-weight: bold; padding: 20px 20px 20px 0; letter-spacing: -1px; color: #66c394;}
+    input{margin: 15px 10px 0 15px;}
+    .check{font-size: 13px;}
+
+    .bag{float:left; width: 165px; height: 65px; background-color: white; border: 2px solid #66c394; border-radius: 10px; margin: 20px 0 0 15px;}
+    .bag_text{margin: 20px 0 0 48px; font-weight: bold;}
+    .bag_text a{text-decoration: none; color:#66c394;}
+
+    .buy{width: 165px; height: 65px; background-color: #66c394; border-radius: 10px; margin: 20px 0 0 200px; border: 2px solid #66c394;}
+    .buy_text{margin: 20px 0 0 48px; font-weight: bold;}
+    .buy_text a{text-decoration: none; color: white;}
+    .bookmark_grey{float: left; position: absolute; bottom: 125px; left: 380px;}
+
+
+  .content{width: 100%; height: 50px; background-color:rgb(252, 194, 6);}
+  .content_box{width: 1200px; height: 50px; margin: 0 auto; background-color: rgb(255, 244, 88);}
+  .content_box > ul {width:1200px; height: 30px; font-weight: bold; margin: 0 0 0 100px;}
+  .content_box > ul > li {width:250px; height:100%; background-color:#dedede; float:left;
+    text-align:center; padding:20px 0 0 0px; border-bottom:3px solid #66c394; font-size:13px; border-radius: 3px;}
+  .content_box > ul > li > a {color:#5b5b5b; text-decoration: none;}
+  .content_box > ul > li:nth-child(1) {background-color:#fcf9ee; border:3px solid #66c394;
+    border-bottom: none; color: #5b5b5b; border-radius: 3px;}
+  .extra_box_left{float: left; width:452px; height: 50px; background-color: #fcf9ee; border-bottom: 3px solid #66c394;}
+
+
+  .tasting_note{width: 100%; height: 670px; background-color:aquamarine ;}
+    .tasting_note_box{width: 1200px; height: 670px; margin: 0 auto; background-color: #fcf9ee;}
+    .TastingNote{float: left; font-size: 41px; font-family: 'Great Vibes', cursive; margin: 120px 0 0 200px;}
+    
+    table img{margin: 10px;}
+    table .topnote{text-align: left; margin: 50px 0 0 50px;}
+    table .heartnote{text-align: left;}
+    table .basenote{text-align: left;}
+    
+    .note{font-size: 24px; line-height: 29px; font-family: 'MaruBuri-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;}
+
+
+  .howtouse{width: 100%; height: 270px; background-color:coral ;}
+    .howtouse_box{width: 1200px; height: 270px; margin: 0 auto; background-color: rgb(255, 193, 182);}
+
+
+  .component{width: 100%; height: 310px; background-color:rgb(49, 255, 42) ;}
+    .component_box{width: 1200px; height: 310px; margin: 0 auto; background-color: rgb(184, 250, 209);}
+
+
+    .etc{width: 100%; height: 450px; background-color:rgb(27, 165, 207) ;}
+    .etc_box{width: 1200px; height: 450px; margin: 0 auto; background-color: rgb(182, 240, 255);}
+
+
+  .bottom {width:100%; height: 55px; background-color: #191919;}
+    .bottombox{width: 1200px; height: 55px; margin: 0 auto;}
+    .bottombox a{text-decoration:none; color: white;}
+    .bottombox span{float: left; text-align: left; margin: 20px 0 0 50px; color: white; font-size: 11px; font-family: "Arial";}
+
+  .privacy{width: 230px; height: 20px; font-size: 8px; color: white; float: right;margin: 20px -50px 0 0;}
+    .bottom_right a{text-decoration: none;}

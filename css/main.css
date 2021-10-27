@@ -72,6 +72,7 @@
     .limited_item_box > img{float: right; width: 330px; height:670px; margin: 10px 40px 10px 30px;}
     .shopnowstars{position: absolute; bottom: 45px; right: 75px; font-size: 13px; color: white; font-family: "Arial";
         padding: 15px 30px; border: 2px solid white;}
+    .shopnowstars a{text-decoration: none; color: white; font-family: "Arial"}
     
     .limited_item_box_mini{width: 235px; height: 300px; float: left; margin: 36px 0 0 25px; background-color: white;}
 

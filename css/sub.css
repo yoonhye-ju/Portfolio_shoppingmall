@@ -47,7 +47,7 @@
 
     .perfume_set{float: right; width: 210px; height: 420px; position: absolute; top: 90px; right: 195px; display:none;}
     .perfume_set_small{float: right; width: 95px; height: 95px; border: 2px solid rgb(165, 165, 165);
-    border-radius: 3px; top: 550px; right: 190px; position: absolute;}
+    border-radius: 3px; top: 550px; right: 200px; position: absolute;}
     .perfume_set_small:hover{opacity: 0.7; cursor:zoom-in;}
 
     .score{font-size: 12px; position:absolute; bottom: 148px; right: 290px;}
@@ -98,34 +98,44 @@
   .extra_box_left{float: left; width:452px; height: 50px; background-color: #fcf9ee; border-bottom: 3px solid #66c394;}
   .extra_box_right{float: right; width:445px; height: 50px; background-color: #fcf9ee; border-bottom: 3px solid #66c394;}
 
-  .tasting_note{width: 100%; height: 670px; background-color:aquamarine ;}
-    .tasting_note_box{width: 1200px; height: 670px; margin: 0 auto; background-color: #fcf9ee;}
-    .TastingNote{float: left; font-size: 40px; margin: 100px 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
-    .tasting_note_box .line{float: left; width: 570px; height: 130px; margin: 0 0 0 25px; border-bottom: 3px solid #a5a5a7;}
+  .tasting_note{width: 100%; height: 1500px; background-color:aquamarine ;}
+    .tasting_note_box{width: 1200px; height: 1500px; margin: 0 auto; background-color: #fcf9ee;}
+    .TastingNote{float: left; font-size: 40px; margin: 75px 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
+    .tasting_note_box .line{float: left; width: 570px; height: 130px; margin: -25px 0 0 25px; border-bottom: 3px solid #a5a5a7;}
     table img{width: 150px; height: 150px; margin: 10px;}
     
-    
-    .note{font-size: 24px; line-height: 29px; font-family: 'MaruBuri-Regular';
+    table.topnote{float: left; padding: 50px 50px 0 0;}
+    table.heartnote{float: left; padding: 50px 50px 0 0;}
+    table.basenote{float: right; padding: 30px 50px 0 0;}
+
+    .note p{color: #686868; display:inline-block; font-size: 17px; font-family: 'MaruBuri-Regular';
       src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
       font-weight: normal;
       font-style: normal;}
-      table td{font-size: 16px; line-height: 26px;}
+    
+    .note{color: #686868; font-size: 24px; line-height: 29px; font-family: 'MaruBuri-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;}
+      table td{font-size: 16px; line-height: 30px; color: #686868;}
 
       td{border: 1px solid red;}
+      iframe{padding: 60px 0 0 0;}
 
     
   .howtouse{width: 100%; height: 270px; background-color:coral ;}
     .howtouse_box{width: 1200px; height: 270px; margin: 0 auto; background-color: rgb(255, 193, 182);}
     .howtouse_text{float: left; font-size: 40px; margin: 0 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
     .howtouse_line{float: left; width: 570px; height: 50px; margin: -20px 0 0 25px; border-bottom: 3px solid #a5a5a7;}
-    .howtouse_box.span{float: left; font-size: 16px; width: 755px; height: 85px; color: #a5a5a7;}
+    .howtouse_box span{float: left; font-size: 16px;
+      width: 770px; height: 85px; color: #686868; margin: 35px 0 0 -175px; line-height: 30px;}
 
 
   .component{width: 100%; height: 310px; background-color:rgb(49, 255, 42) ;}
     .component_box{width: 1200px; height: 310px; margin: 0 auto; background-color: rgb(184, 250, 209);}
     .component_text{float: left; font-size: 40px; margin: 0 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
     .component_line{float: left; width: 570px; height: 25px; margin: 0 0 0 50px; border-bottom: 3px solid #a5a5a7;}
-    .component span{}
+    .component_box span{float: left; margin: 35px 0 0 -155px; width: 770px; height: 85px; font-size: 16px; color: #686868; line-height: 30px;}
   
 
     .etc{width: 100%; height: 450px; background-color:rgb(27, 165, 207) ;}

@@ -3,21 +3,21 @@
 
   header{width: 1200px; height: 90px; margin:0 auto; background-color: #2a2a2a;}
 
+  @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+  .nanumgothic * {font-family: 'Nanum Gothic', sans-serif;}
+
   @font-face {
     font-family: 'MaruBuri-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
-}
+    font-style: normal;}
 
   @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
-  .nanummyeongjo * {
-  font-family: 'Nanum Myeongjo', serif;
-  }
+  .nanummyeongjo * {font-family: 'Nanum Myeongjo', serif;}
 
-  @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 
 
   body{background-color: #2a2a2a;}
@@ -42,10 +42,17 @@
     .main_box_left{width: 50%; height: 100%; position:relative; float:left;}
     .perfume{float: right; width: 210px; height: 420px; position: absolute; top: 90px; right: 195px;}
     .perfume_small{float: right; width: 95px; height: 95px; border: 2px solid rgb(165, 165, 165);
-    border-radius: 3px; top: 550px; right: 250px; position: absolute;}
+    border-radius: 3px; top: 550px; right: 310px; position: absolute;}
+    .perfume_small:hover{opacity: 0.7; cursor:zoom-in;}
+
+    .perfume_set{float: right; width: 210px; height: 420px; position: absolute; top: 90px; right: 195px; display:none;}
+    .perfume_set_small{float: right; width: 95px; height: 95px; border: 2px solid rgb(165, 165, 165);
+    border-radius: 3px; top: 550px; right: 190px; position: absolute;}
+    .perfume_set_small:hover{opacity: 0.7; cursor:zoom-in;}
+
     .score{font-size: 12px; position:absolute; bottom: 148px; right: 290px;}
     small{font-size: 10px;}
-    .icon_color{float: left; bottom: 125px; right: 140px; position: absolute; padding: 10px;}
+    .icon_color{float: left; bottom: 125px; right: 145px; position: absolute; padding: 10px;}
 
 
     .main_box_right{width:50%; height: 100%; float: right; position:relative;}
@@ -60,20 +67,24 @@
 
 
     .nemo{display: inline-block; width: 425px; height: 60px; background-color: #c4c4c4; border-radius: 10px; margin: 30px 0 0 15px;}
-    .sold{padding: 20px; color:white; font-weight: bold; font-size:13px;}
+    .sold{padding: 20px; color:white; font-weight: bold; font-size:13px;} 
+    .nemo select{width:60px; height:20px; float:left; margin:-37px 0 0 340px; font-size:13px; color:#666; border:1px solid #eee; padding:0px 0 0 10px;} 
+
     .sum{width: 425px; height: 60px; border-bottom: 2px solid #66c394; margin: 10px 0 0 15px;}
-    .sum_left{font-weight: bold; padding: 20px 20px 20px 0; letter-spacing: -1px; color: #66c394;}
+    .sum_left{padding: 20px 20px 20px 0; letter-spacing: -1px; color: #66c394;}
+    .sum_right{margin: -43px 0 0 357px; color: #66c394;}
+    
     input{margin: 15px 10px 0 15px;}
     .check{font-size: 13px;}
 
     .bag{float:left; width: 165px; height: 65px; background-color: white; border: 2px solid #66c394; border-radius: 10px; margin: 20px 0 0 15px;}
-    .bag_text{margin: 20px 0 0 48px; font-weight: bold;}
+    .bag_text{margin: 20px 0 0 51px; font-weight: bold;}
     .bag_text a{text-decoration: none; color:#66c394;}
 
     .buy{width: 165px; height: 65px; background-color: #66c394; border-radius: 10px; margin: 20px 0 0 200px; border: 2px solid #66c394;}
-    .buy_text{margin: 20px 0 0 48px; font-weight: bold;}
+    .buy_text{margin: 20px 0 0 52px; font-weight: bold;}
     .buy_text a{text-decoration: none; color: white;}
-    .bookmark_grey{float: left; position: absolute; bottom: 125px; left: 380px;}
+    .bookmark_grey{float: left; position: absolute; bottom: 119px; left: 380px;}
 
 
   .content{width: 100%; height: 50px; background-color:rgb(252, 194, 6);}
@@ -85,30 +96,37 @@
   .content_box > ul > li:nth-child(1) {background-color:#fcf9ee; border:3px solid #66c394;
     border-bottom: none; color: #5b5b5b; border-radius: 3px;}
   .extra_box_left{float: left; width:452px; height: 50px; background-color: #fcf9ee; border-bottom: 3px solid #66c394;}
-
+  .extra_box_right{float: right; width:445px; height: 50px; background-color: #fcf9ee; border-bottom: 3px solid #66c394;}
 
   .tasting_note{width: 100%; height: 670px; background-color:aquamarine ;}
     .tasting_note_box{width: 1200px; height: 670px; margin: 0 auto; background-color: #fcf9ee;}
-    .TastingNote{float: left; font-size: 41px; font-family: 'Great Vibes', cursive; margin: 120px 0 0 200px;}
+    .TastingNote{float: left; font-size: 40px; margin: 100px 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
+    .tasting_note_box .line{float: left; width: 570px; height: 130px; margin: 0 0 0 25px; border-bottom: 3px solid #a5a5a7;}
+    table img{width: 150px; height: 150px; margin: 10px;}
     
-    table img{margin: 10px;}
-    table .topnote{text-align: left; margin: 50px 0 0 50px;}
-    table .heartnote{text-align: left;}
-    table .basenote{text-align: left;}
     
     .note{font-size: 24px; line-height: 29px; font-family: 'MaruBuri-Regular';
       src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
       font-weight: normal;
       font-style: normal;}
+      table td{font-size: 16px; line-height: 26px;}
 
+      td{border: 1px solid red;}
 
+    
   .howtouse{width: 100%; height: 270px; background-color:coral ;}
     .howtouse_box{width: 1200px; height: 270px; margin: 0 auto; background-color: rgb(255, 193, 182);}
+    .howtouse_text{float: left; font-size: 40px; margin: 0 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
+    .howtouse_line{float: left; width: 570px; height: 50px; margin: -20px 0 0 25px; border-bottom: 3px solid #a5a5a7;}
+    .howtouse_box.span{float: left; font-size: 16px; width: 755px; height: 85px; color: #a5a5a7;}
 
 
   .component{width: 100%; height: 310px; background-color:rgb(49, 255, 42) ;}
     .component_box{width: 1200px; height: 310px; margin: 0 auto; background-color: rgb(184, 250, 209);}
-
+    .component_text{float: left; font-size: 40px; margin: 0 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
+    .component_line{float: left; width: 570px; height: 25px; margin: 0 0 0 50px; border-bottom: 3px solid #a5a5a7;}
+    .component span{}
+  
 
     .etc{width: 100%; height: 450px; background-color:rgb(27, 165, 207) ;}
     .etc_box{width: 1200px; height: 450px; margin: 0 auto; background-color: rgb(182, 240, 255);}

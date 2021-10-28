@@ -15,8 +15,14 @@
   @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
   .nanummyeongjo * {font-family: 'Nanum Myeongjo', serif;}
 
-
   @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+  @font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 
 
@@ -30,16 +36,16 @@
   #nav img{width:20px; height:20px; padding: 0 5px;}
 
 
-  #menu{width: 100%; height: 65px; background-color: #fcf9ee; box-shadow: 0 2px 8px #666666;}
+    #main{width: 100%; height: 870px; background-color: #fcf9ee;}
+
+    #menu{width: 100%; height: 65px; background-color: #fcf9ee; box-shadow: 0 2px 8px #666666;}
     .menu_box{width:1200px; height: 65px; background-color: #fcf9ee; margin: 0 auto;}
     .menu_box ul .home{margin: 0 0 0 30px;}
     .menu_box ul li {font-size: 15px; float: left; margin: 20px 0 0 10px;}
     .menu_box ul li a{text-decoration: none; color:#2a2a2a;}
     .menu_box ul li a:hover{color: #66c394; font-weight: bold;}
 
-
-  #main{width: 100%; height: 870px; background-color: #fcf9ee;}
-    .main_box_left{width: 50%; height: 100%; position:relative; float:left;}
+    .main_box_left{width: 50%; height: 805px; position:relative; float:left;}
     .perfume{float: right; width: 210px; height: 420px; position: absolute; top: 90px; right: 195px;}
     .perfume_small{float: right; width: 95px; height: 95px; border: 2px solid rgb(165, 165, 165);
     border-radius: 3px; top: 550px; right: 310px; position: absolute;}
@@ -50,12 +56,12 @@
     border-radius: 3px; top: 550px; right: 200px; position: absolute;}
     .perfume_set_small:hover{opacity: 0.7; cursor:zoom-in;}
 
-    .score{font-size: 12px; position:absolute; bottom: 148px; right: 290px;}
+    .score{font-size: 12px; position:absolute; bottom: 100px; right: 290px;}
     small{font-size: 10px;}
-    .icon_color{float: left; bottom: 125px; right: 145px; position: absolute; padding: 10px;}
+    .icon_color{float: left; bottom: 78px; right: 145px; position: absolute; padding: 10px;}
 
 
-    .main_box_right{width:50%; height: 100%; float: right; position:relative;}
+    .main_box_right{width:50%; height: 805px; float: right; position:relative;}
     .english{font-size: 14px; margin: 70px 0 0 20px; font-family: 'Festive', bold; color:#66c394;}
     .index{width: 20em; font-size: 30px; line-height:40px; font-family: 'Nanum Myeongjo', serif; font-weight: bold; margin: 10px 0 0 15px; letter-spacing: -3px;}
     .price{font-size: 25px; font-family: 'Nanum Myeongjo', serif; font-weight: bold; margin: 15px 0 0 20px;}
@@ -84,29 +90,46 @@
     .buy{width: 165px; height: 65px; background-color: #66c394; border-radius: 10px; margin: 20px 0 0 200px; border: 2px solid #66c394;}
     .buy_text{margin: 20px 0 0 52px; font-weight: bold;}
     .buy_text a{text-decoration: none; color: white;}
-    .bookmark_grey{float: left; position: absolute; bottom: 119px; left: 380px;}
+    .bookmark_grey{float: left; position: absolute; bottom: 55px; left: 380px;}
 
 
-  .content{width: 100%; height: 50px; background-color:rgb(252, 194, 6);}
-  .content_box{width: 1200px; height: 50px; margin: 0 auto; background-color: rgb(255, 244, 88);}
+  .content{width: 100%; height: 50px; background-color:#fcf9ee; border-bottom: 3px solid #66c394;}
+  .content_box{width: 1200px; height: 50px; margin: 0 auto; background-color: #fcf9ee;}
   .content_box > ul {width:1200px; height: 30px; font-weight: bold; margin: 0 0 0 100px;}
   .content_box > ul > li {width:250px; height:100%; background-color:#dedede; float:left;
     text-align:center; padding:20px 0 0 0px; border-bottom:3px solid #66c394; font-size:13px; border-radius: 3px;}
   .content_box > ul > li > a {color:#5b5b5b; text-decoration: none;}
-  .content_box > ul > li:nth-child(1) {background-color:#fcf9ee; border:3px solid #66c394;
+  .content_box > ul > li:nth-child(1):hover{background-color:#fcf9ee; border:3px solid #66c394;
     border-bottom: none; color: #5b5b5b; border-radius: 3px;}
-  .extra_box_left{float: left; width:452px; height: 50px; background-color: #fcf9ee; border-bottom: 3px solid #66c394;}
-  .extra_box_right{float: right; width:445px; height: 50px; background-color: #fcf9ee; border-bottom: 3px solid #66c394;}
+  .content_box > ul > li:nth-child(2):hover{background-color:#fcf9ee; border:3px solid #66c394;
+    border-bottom: none; color: #5b5b5b; border-radius: 3px;}
+  .content_box > ul > li:nth-child(3):hover{background-color:#fcf9ee; border:3px solid #66c394;
+    border-bottom: none; color: #5b5b5b; border-radius: 3px;}
+  .content_box > ul > li:nth-child(4):hover{background-color:#fcf9ee; border:3px solid #66c394;
+    border-bottom: none; color: #5b5b5b; border-radius: 3px;}
 
-  .tasting_note{width: 100%; height: 1500px; background-color:aquamarine ;}
-    .tasting_note_box{width: 1200px; height: 1500px; margin: 0 auto; background-color: #fcf9ee;}
-    .TastingNote{float: left; font-size: 40px; margin: 75px 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
-    .tasting_note_box .line{float: left; width: 570px; height: 130px; margin: -25px 0 0 25px; border-bottom: 3px solid #a5a5a7;}
-    table img{width: 150px; height: 150px; margin: 10px;}
+
+  .tasting_note{width: 100%; height: 3600px; background-color:#fcf9ee;}
+    .tasting_note_box{width: 1200px; height: 3600px; margin: 0 auto; background-color: #fcf9ee;}
+    .story{font-size: 40px; margin: 20px 0; text-align:center; font-family: 'MaruBuri-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;}
+    .story_under{font-size: 40px; text-align: center; margin: 70px 0; font-family: 'KCC-eunyoung';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;}
+    .story_underline{text-align: center; font-size: 18px; margin: 30px 0; line-height: 45px; letter-spacing: -1px;}
+
+    .tasting_note > img{width: 100%; margin: 100px 0 80px 0;}
+    .TastingNote{float: left; font-size: 60px; margin: 75px 0 0 200px; color: #66c394; font-family: 'Dancing Script', cursive;}
+    .tasting_note_box .line{float: left; width: 483px; height: 130px; margin: -15px 0 0 25px; border-bottom: 3px solid #66c394;}
     
-    table.topnote{float: left; padding: 50px 50px 0 0;}
-    table.heartnote{float: left; padding: 50px 50px 0 0;}
-    table.basenote{float: right; padding: 30px 50px 0 0;}
+    .tablebox{float: left; width:780px; height: 440px; background-color: #fcf9ee; margin: 50px 0 10px -250px; position: relative;}
+    table img{width: 150px; height: 150px; margin: 10px;}
+    .tablebox .topnote{float: left; position: absolute; top: 5px; left: 0px;}
+    .tablebox .heartnote{float: left; position: absolute; top: 5px; left: 300px;}
+    .tablebox .basenote{float: right; position: absolute; top: 5px; right: 0px;}
 
     .note p{color: #686868; display:inline-block; font-size: 17px; font-family: 'MaruBuri-Regular';
       src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
@@ -119,27 +142,58 @@
       font-style: normal;}
       table td{font-size: 16px; line-height: 30px; color: #686868;}
 
-      td{border: 1px solid red;}
-      iframe{padding: 60px 0 0 0;}
+      iframe{padding: 80px 0 0 0;}
 
     
-  .howtouse{width: 100%; height: 270px; background-color:coral ;}
-    .howtouse_box{width: 1200px; height: 270px; margin: 0 auto; background-color: rgb(255, 193, 182);}
-    .howtouse_text{float: left; font-size: 40px; margin: 0 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
-    .howtouse_line{float: left; width: 570px; height: 50px; margin: -20px 0 0 25px; border-bottom: 3px solid #a5a5a7;}
+  .howtouse{width: 100%; height: 330px; background-color:#fcf9ee;}
+    .howtouse_box{width: 1200px; height: 330px; margin: 0 auto; background-color: #fcf9ee;}
+    .howtouse_text{float: left; font-size: 60px; margin: 60px 0 0 200px; color: #66c394; font-family: 'Dancing Script', cursive;}
+    .howtouse_line{float: left; width: 483px; height: 50px; margin: 55px 0 0 25px; border-bottom: 3px solid #66c394;}
     .howtouse_box span{float: left; font-size: 16px;
-      width: 770px; height: 85px; color: #686868; margin: 35px 0 0 -175px; line-height: 30px;}
+      width: 770px; height: 85px; color: #686868; margin: 50px 0 0 -245px; line-height: 30px;}
 
 
-  .component{width: 100%; height: 310px; background-color:rgb(49, 255, 42) ;}
-    .component_box{width: 1200px; height: 310px; margin: 0 auto; background-color: rgb(184, 250, 209);}
-    .component_text{float: left; font-size: 40px; margin: 0 0 0 200px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
-    .component_line{float: left; width: 570px; height: 25px; margin: 0 0 0 50px; border-bottom: 3px solid #a5a5a7;}
-    .component_box span{float: left; margin: 35px 0 0 -155px; width: 770px; height: 85px; font-size: 16px; color: #686868; line-height: 30px;}
+  .component{width: 100%; height: 350px; background-color:#fcf9ee;}
+    .component_box{width: 1200px; height: 350px; margin: 0 auto; background-color: #fcf9ee;}
+    .component_text{float: left; font-size: 40px; margin: 0 0 0 220px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
+    .component_line{float: left; width: 560px; height: 25px; margin: 5px 0 0 40px; border-bottom: 3px solid #a5a5a7;}
+    .component_box span{float: left; margin: 40px 0 0 -130px; width: 780px; height: 85px; font-size: 15px; color: #686868; line-height: 30px;}
+    .component_box span b{font-size: 13px; letter-spacing: -1; line-height: 16px;}
   
 
-    .etc{width: 100%; height: 450px; background-color:rgb(27, 165, 207) ;}
-    .etc_box{width: 1200px; height: 450px; margin: 0 auto; background-color: rgb(182, 240, 255);}
+  .opinion{width: 100%; height: 570px; background-color:#fcf9ee;}
+    .opinion_box{width: 1200px; height: 570px; margin: 0 auto; background-color: #fcf9ee;}
+    .opinion_text{float: right; font-size: 60px; margin: 55px 200px 0 0; color: #66c394; font-family: 'Dancing Script', cursive;}
+    .opinion_line{float: left; width: 600px; height: 25px; margin: 70px 0 0 200px; border-bottom: 3px solid #66c394;}
+    ​
+    #opinion_tablebox > table th{width: 100px; border-bottom:2px solid white; color:#66c394;}
+    .opinion_box table td:first-of-type {width: 560px; padding-left: 30px; font-size: 15px; border-bottom: 2px solid white;}
+    .opinion_box table td:first-of-type > a {color:#2a2a2a; text-decoration: none;}
+    .opinion_box table td:nth-of-type(2) {width:40px; padding: 0 10px; text-align:center; border-bottom:2px solid white; font-size: 15px;}
+    .opinion_box table td:nth-of-type(3) {width:60px; text-align:center; border-bottom:2px solid white; font-size: 15px;}
+    .opinion_box table td:last-of-type {width:80px; text-align:center; border-bottom:2px solid white; font-size: 15px;}
+    .opinion_box > #opinion_tablebox > table {display:inline-block; margin: 30px 0 0 195px; line-height:50px; width:1000px; font-size:13px; color:#2a2a2a;}
+    .opinion_box > #opinion_tablebox > button {float:right; margin: 30px 180px 0 0; width:110px; height:30px; color:white; font-size:12px; background-color:#66c394; border:1px solid #66c394;}
+    .opinion_box > #opinion_tablebox > button:hover {cursor:pointer;}
+
+    
+    
+  .QandA{width: 100%; height: 470px; background-color:#fcf9ee;}
+    .QandA_box{width: 1200px; height: 470px; margin: 0 auto; background-color: #fcf9ee;}
+    .QandA_text{float: right; font-size: 60px; margin: 55px 200px 0 0; color: #66c394; font-family: 'Dancing Script', cursive;}
+    .QandA_line{float: left; width: 630px; height: 25px; margin: 70px 0 0 200px; border-bottom: 3px solid #66c394;}
+    ​
+    #QandA_tablebox > table th{width: 100px; border-bottom:2px solid white; color:#66c394;}
+    .QandA_box table td:first-of-type {width: 560px; padding-left: 30px; font-size: 15px; border-bottom: 2px solid white;}
+    .QandA_box table td:first-of-type > a {color:#2a2a2a; text-decoration: none;}
+    .QandA_box table td:nth-of-type(2) {width:40px; padding: 0 10px; text-align:center; border-bottom:2px solid white; font-size: 15px;}
+    .QandA_box table td:nth-of-type(3) {width:60px; text-align:center; border-bottom:2px solid white; font-size: 15px;}
+    .QandA_box table td:last-of-type {width:80px; text-align:center; border-bottom:2px solid white; font-size: 15px;}
+    .QandA_box > #QandA_tablebox > table {display:inline-block; margin: 30px 0 0 195px; line-height:50px; width:1000px; font-size:13px; color:#2a2a2a;}
+    .QandA_box > #QandA_tablebox > button {float:right; margin: 30px 180px 0 0; width:110px; height:30px; color:#fff; font-size:12px; background-color:#66c394; border:1px solid #66c394;}
+    .QandA_box > #QandA_tablebox > button:hover {cursor:pointer;}
+
+
 
 
   .bottom {width:100%; height: 55px; background-color: #191919;}

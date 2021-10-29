@@ -39,7 +39,7 @@
       .new_item_box_mini{width: 235px; height: 300px; float: left; margin: 40px 10px 0 10px; background-color: white;}
       
       .new_category{position:absolute; top:10px; right: 70px; font-size: 10px;}
-      .new_category a{text-decoration: none; color: black;}
+      .new_category a{text-decoration: none; color: #2a2a2a;}
       
       .new_item_box_mini a{text-decoration: none;}
       .new_item_box_mini a:hover{color: #66c394;}
@@ -77,7 +77,7 @@
     .limited_item_box_mini{width: 235px; height: 300px; float: left; margin: 36px 0 0 25px; background-color: white;}
 
     .limited_category{position: absolute; top: 10px; left: 70px; font-size: 10px;}
-    .limited_category a{text-decoration: none; color: black;}
+    .limited_category a{text-decoration: none; color: #2a2a2a;}
 
     .limited_item_box_mini a{text-decoration: none;}
     .limited_item_box_mini a:hover{color: coral;}

@@ -1,21 +1,18 @@
 @charset "utf-8";
   
 
-  header{width: 1200px; height: 90px; margin:0 auto; background-color: #2a2a2a;}
+@import url('https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
+  
 
-  @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-  .nanumgothic * {font-family: 'Nanum Gothic', sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+  .nanummyeongjo * {font-family: 'Nanum Myeongjo', serif;}
+  header{width: 1200px; height: 90px; margin:0 auto; background-color: #2a2a2a;}
 
   @font-face {
     font-family: 'MaruBuri-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;}
-
-  @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
-  .nanummyeongjo * {font-family: 'Nanum Myeongjo', serif;}
-
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
   @font-face {
     font-family: 'KCC-eunyoung';
@@ -28,7 +25,7 @@
 
   body{background-color: #2a2a2a;}
 
-  #logo {width: 155px; height: 35px; float:center; margin: 0 0 0 520px;}
+  #logo {width: 155px; height: 35px; margin: 0 0 0 520px;}
   #logo img {width: 100%; height: 100%; margin: 20px}
 
   select {position:relative; margin: -4px 100px 30px 10px; float: right;}
@@ -65,10 +62,7 @@
     .english{font-size: 14px; margin: 70px 0 0 20px; font-family: 'Festive', bold; color:#66c394;}
     .index{width: 20em; font-size: 30px; line-height:40px; font-family: 'Nanum Myeongjo', serif; font-weight: bold; margin: 10px 0 0 15px; letter-spacing: -3px;}
     .price{font-size: 25px; font-family: 'Nanum Myeongjo', serif; font-weight: bold; margin: 15px 0 0 20px;}
-    .index_under>span{font-size: 19px; line-height: 35px; font-family: 'MaruBuri-Regular';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;}
+    .index_under>span{font-size: 19px; line-height: 35px; font-family: 'MaruBuri-Regular'; }
     .index_under{font-size: 15px; line-height: 28px; margin: 0 0 0 15px; letter-spacing: -1px; color: #2a2a2a;}
 
 
@@ -193,14 +187,8 @@
 
   .tasting_note{width: 100%; height: 4400px; background-color:#fcf9ee;}
     .tasting_note_box{width: 1200px; height: 4400px; margin: 0 auto; background-color: #fcf9ee;}
-    .story{font-size: 40px; margin: 20px 0; text-align:center; font-family: 'MaruBuri-Regular';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;}
-    .story_under{font-size: 40px; text-align: center; margin: 70px 0; font-family: 'KCC-eunyoung';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;}
+    .story{font-size: 40px; margin: 20px 0; text-align:center; font-family: 'MaruBuri-Regular';}
+    .story_under{font-size: 40px; text-align: center; margin: 70px 0; font-family: 'KCC-eunyoung';font-weight: normal; font-style: normal;}
     .story_underline{text-align: center; font-size: 18px; margin: 30px 0; line-height: 45px; letter-spacing: -1px;}
 
     .tasting_note > img{width: 100%; margin: 100px 0 80px 0;}
@@ -214,23 +202,14 @@
     .tablebox .heartnote{float: left; position: absolute; top: 5px; left: 300px;}
     .tablebox .basenote{float: right; position: absolute; top: 5px; right: 0px;}
 
-    .note p{color: #686868; display:inline-block; font-size: 17px; font-family: 'MaruBuri-Regular';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;}
+    .note span{color: #686868; display:inline-block; font-size: 17px; font-family: 'MaruBuri-Regular';font-weight: normal; font-style: normal;}
     
-    .note{color: #686868; font-size: 24px; line-height: 29px; font-family: 'MaruBuri-Regular';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;}
+    .note{color: #686868; font-size: 24px; line-height: 29px; font-family: 'MaruBuri-Regular'; font-weight: normal; font-style: normal;}
       table td{font-size: 16px; line-height: 30px; color: #686868;}
 
       iframe{padding: 80px 0;}
 
-      .collection .collection_story{line-height: 50px; font-size: 25px; margin: 50px 0; text-align:center; font-family: 'MaruBuri-Regular';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;}
+      .collection .collection_story{line-height: 50px; font-size: 25px; margin: 50px 0; text-align:center; font-family: 'MaruBuri-Regular'; font-weight: normal; font-style: normal;}
       .collection .collection_story > a{float: left; text-decoration: none; color: #66c394; font-size: 23px; letter-spacing: -1px;}
       .collection .collection_story > img{float:left; margin: 10px 5px 50px 500px;}
 
@@ -248,7 +227,7 @@
     .component_text{float: left; font-size: 40px; margin: 0 0 0 220px; color: #a5a5a7; font-family: 'Dancing Script', cursive;}
     .component_line{float: left; width: 560px; height: 25px; margin: 5px 0 0 40px; border-bottom: 3px solid #a5a5a7;}
     .component_box span{float: left; margin: 40px 0 0 -130px; width: 780px; height: 85px; font-size: 15px; color: #686868; line-height: 30px;}
-    .component_box span b{font-size: 13px; letter-spacing: -1; line-height: 16px;}
+    .component_box span b{font-size: 13px; letter-spacing: -1px; line-height: 16px;}
   
 
   .opinion{width: 100%; height: 570px; background-color:#fcf9ee;}

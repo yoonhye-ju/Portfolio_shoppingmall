@@ -5,12 +5,6 @@
   #logo img {width: 100%; height: 100%; margin: 20px}
 
 
-  @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-
-.nanumgothic * {
- font-family: 'Nanum Gothic', sans-serif;
-}
-
   select {position:relative; margin: -4px 100px 30px 10px; float: right;}
   #nav{position: relative; float: right; margin: -5px 10px 0 10px;}
   #nav img{width:20px; height:20px; padding: 0 5px;}
@@ -39,7 +33,7 @@
       .new_item_box_mini{width: 235px; height: 300px; float: left; margin: 40px 10px 0 10px; background-color: white;}
       
       .new_category{position:absolute; top:10px; right: 70px; font-size: 10px;}
-      .new_category a{text-decoration: none; color: black;}
+      .new_category a{text-decoration: none; color: #2a2a2a;}
       
       .new_item_box_mini a{text-decoration: none;}
       .new_item_box_mini a:hover{color: #66c394;}
@@ -60,10 +54,10 @@
       .new_item_box_mini p{text-align:right; font-size:14px; font-weight: bold; color: #585858;}
     
 
-    #pro{width: 100%; height: 340px; background-color: #fcf9ee;}
-    #pro .event{float: left; margin: 65px 10px 65px 420px;}
+    #pro{width: 100%; height: 340px; background-color: #fcf9ee; position: relative}
+    #pro .event{float: left; position: absolute; margin: 65px 10px 65px 420px;}
     .event:hover{opacity: 0.5;}
-    #pro .seasonal{float: right; margin: 65px 420px 65px 10px;}
+    #pro .seasonal{float: right; position: absolute;  margin: 65px 0 65px 950px;}
     .seasonal:hover{opacity: 0.5;}
 
 
@@ -77,7 +71,7 @@
     .limited_item_box_mini{width: 235px; height: 300px; float: left; margin: 36px 0 0 25px; background-color: white;}
 
     .limited_category{position: absolute; top: 10px; left: 70px; font-size: 10px;}
-    .limited_category a{text-decoration: none; color: black;}
+    .limited_category a{text-decoration: none; color: #2a2a2a;}
 
     .limited_item_box_mini a{text-decoration: none;}
     .limited_item_box_mini a:hover{color: coral;}
